@@ -23,8 +23,7 @@
           <div class="temp">{{ Math.round(weather.main.temp) }} &#8451;</div>
           <div class="weather">{{ weather.weather[0].main }}</div>
         </div>
-        <h1>Count - {{count}}</h1>
-        <button class="btn-hidden" @click="increment">Increment</button>
+        <button class="btn-hidden" @click="increment"></button>
 
       </div>
     </main>
@@ -101,7 +100,7 @@ export default {
         + 'Zlá správa je, že klikáš málo a pomaly :(');
       if (this.count > 100)
         alert('V prvom rade dúfam, že to tvoj telefón prežil.\n'
-        + 'Ďalšiu úlohu nájdeš tu: odkaz');
+        + 'Ďalšiu úlohu nájdeš tu: https://postimg.cc/WDxJVv1L');
     },
   },
 };
